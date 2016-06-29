@@ -32,6 +32,7 @@
 // base
 
 .Select-control {
+	z-index:1;
 	background-color: $select-input-bg;
 	border-color: lighten($select-input-border-color, 5%) $select-input-border-color darken($select-input-border-color, 10%);
 	border-radius: $select-input-border-radius;
